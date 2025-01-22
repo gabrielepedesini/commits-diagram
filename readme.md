@@ -7,7 +7,6 @@ Easily visualize and embed your GitHub contribution activity with this customiza
 ## Features
 - Fetches contribution data using the GitHub GraphQL API.
 - Interactive heatmap with color-coded activity levels.
-- Responsive design for embedding anywhere.
 
 ## Quick Start
 
