@@ -1,0 +1,55 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f6f8fa;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+#contribution-calendar {
+    background: white;
+    border: 1px solid #d0d7de;
+    border-radius: 6px;
+    padding: 16px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
+    width: 750px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    box-sizing: border-box;
+}
+
+.contribution-cell:hover {
+    stroke: #000000;
+    stroke-width: 1px;
+}
+
+.tooltip {
+    position: absolute;
+    background: #ffffff;
+    padding: 8px 10px;
+    border: 1px solid #d0d7de;
+    border-radius: 6px;
+    font-size: 12px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
+    pointer-events: none;
+    z-index: 1000;
+}
+
+.day-label {
+    font-size: 12px;
+    fill: #57606a;
+}
+
+.month-label {
+    font-size: 12px;
+    fill: #57606a;
+}
+
+.legend-label {
+    font-size: 12px;
+    fill: #57606a;
+}
