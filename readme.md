@@ -29,13 +29,10 @@ Easily visualize and embed your GitHub contribution activity with this customiza
 
 4. Open `index.html` in a browser to see your contribution calendar.
 
-### Embedding
+## Embedding
+
 Add this to your webpage:
 ```html
 <div id="contribution-calendar"></div>
 <script src="script.js"></script>
 ```
-
----
-
-Simplify your GitHub stats showcase today!
